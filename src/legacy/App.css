@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.layout {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.toolbar button {
+  border: 1px solid #bfbfbf;
+  background: #fff;
+  padding: 0.35rem 0.7rem;
+  cursor: pointer;
+}
+
+.toolbar button.active {
+  font-weight: 700;
+}
+
+.card {
+  display: grid;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  border: 1px solid #d7d7d7;
+  text-align: left;
+}
+
+.card label {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.card input,
+.card textarea,
+.card select {
+  border: 1px solid #cfcfcf;
+  padding: 0.35rem;
+  font: inherit;
+}
+
+.card button {
+  border: 1px solid #bfbfbf;
+  background: #fff;
+  padding: 0.35rem 0.7rem;
+  cursor: pointer;
+}
+
+.task-list,
+.folder-list {
+  margin: 0;
+  padding: 0;
+}
+
+.task-list li,
+.folder-list li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.4rem 0;
+  padding: 0.3rem 0.5rem;
+  background-color: beige;
+}
+
+.task-main {
+  display: grid;
+  gap: 0.15rem;
+}
+
+#actionBar {
+  display: flex;
+}
+
+.icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.error {
+  margin: 0;
+  color: #bd1f1f;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-logo {
+  max-height: 4vh;
+}

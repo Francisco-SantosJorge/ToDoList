@@ -1,0 +1,44 @@
+.app-header {
+  background: #282c34;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.header-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.header-top-row h1 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.header-stats {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+
+.header-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.header-actions button {
+  border: 1px solid #bbb;
+  background: #fff;
+  color: #222;
+  padding: 0.3rem 0.6rem;
+}
+
+.header-actions button.active {
+  font-weight: 700;
+}
+

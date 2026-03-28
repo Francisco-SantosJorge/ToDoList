@@ -1,0 +1,33 @@
+.filters-zone {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  margin-bottom: 0.8rem;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.filters-zone .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.filters-zone label {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.chip {
+  border: 1px solid #bbb;
+  background: #fff;
+  padding: 0.2rem 0.4rem;
+  font-size: 0.83rem;
+}
+
+.chip.active {
+  background: #ececec;
+  font-weight: 700;
+}
+

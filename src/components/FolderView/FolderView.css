@@ -1,0 +1,58 @@
+.folder-form {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(110px, 1fr));
+  gap: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.folder-form input,
+.folder-form select,
+.folder-form button {
+  border: 1px solid #bbb;
+  padding: 0.25rem;
+}
+
+.folder-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.folder-list li {
+  border: 1px solid #ddd;
+  background: beige;
+  padding: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.folder-actions,
+.folder-edit-row {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.folder-actions button,
+.folder-edit-row button,
+.folder-edit-row input,
+.folder-edit-row select {
+  border: 1px solid #bbb;
+  background: #fff;
+  padding: 0.2rem 0.3rem;
+}
+
+.error-line {
+  color: #b61f1f;
+}
+
+.action-icon {
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+

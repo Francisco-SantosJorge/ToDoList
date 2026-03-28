@@ -1,0 +1,63 @@
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.7rem;
+  border: 1px solid #ddd;
+  background: beige;
+  padding: 0.45rem;
+}
+
+.task-item-main {
+  display: grid;
+  gap: 0.2rem;
+  text-align: left;
+}
+
+.toggle-mode {
+  width: 24px;
+  border: 1px solid #bbb;
+  background: #fff;
+}
+
+.folder-link {
+  margin-right: 0.35rem;
+  border: 0;
+  border-bottom: 1px dashed #666;
+  background: transparent;
+}
+
+.task-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.task-actions button,
+.task-actions select {
+  border: 1px solid #bbb;
+  background: #fff;
+  padding: 0.2rem 0.3rem;
+}
+
+.edit-grid {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.edit-grid input,
+.edit-grid textarea {
+  border: 1px solid #bbb;
+  padding: 0.2rem;
+}
+
+.error-line {
+  color: #b61f1f;
+}
+
+.action-icon {
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+

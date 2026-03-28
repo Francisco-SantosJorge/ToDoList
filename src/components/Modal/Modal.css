@@ -1,0 +1,29 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+}
+
+.modal-content {
+  width: min(680px, 95vw);
+  background: #fff;
+  border: 1px solid #bbb;
+  padding: 0.7rem;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+
+.modal-header h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+

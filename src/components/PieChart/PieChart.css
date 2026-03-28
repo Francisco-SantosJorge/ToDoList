@@ -1,0 +1,39 @@
+.pie-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.pie-chart {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+
+.pie-legend {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.8rem;
+}
+
+.pie-legend li {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.2rem;
+}
+
+.color-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.pie-empty {
+  font-size: 0.85rem;
+  color: #555;
+}
+

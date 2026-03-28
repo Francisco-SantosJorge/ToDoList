@@ -1,0 +1,27 @@
+.app-footer {
+  position: sticky;
+  bottom: 0;
+  border-top: 1px solid #ddd;
+  background: #fff;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fab {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid #555;
+  background: #f6f6f6;
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.small {
+  border: 1px solid #bbb;
+  background: #fff;
+  padding: 0.3rem 0.5rem;
+}
+
